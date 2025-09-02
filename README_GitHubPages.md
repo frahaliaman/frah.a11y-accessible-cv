@@ -2,7 +2,6 @@
 
 Files included:
 - `index.html` — your accessible HTML résumé (semantic headings, left-aligned, descriptive links, no tables)
-- `.nojekyll` — prevents Jekyll from altering the site
-- `README_GitHubPages.md` — these instructions
-
+- `.nojekyll`
+- `README_GitHubPages.md` 
 Updated: 2025-09-02
