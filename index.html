@@ -36,6 +36,14 @@
     .updated { font-size: 0.9rem; color: #444; }
     /* Ensure everything is left-aligned; no tables used. */
     * { text-align: left; }
+  /* Accessibility helpers */
+  .visually-hidden {
+    position: absolute !important;
+    height: 1px; width: 1px;
+    overflow: hidden; clip: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap; clip-path: inset(50%);
+  }
+     
   </style>
 </head>
 <body>
@@ -46,12 +54,26 @@
       <section class="contact" aria-label="Contact information">
         <p>Ottawa, Ontario (Eastern Time)</p>
         <p><a href="mailto:frah.ali.aman@gmail.com">Email Frah Ali Aman</a></p>
-        <p><a href="https://www.linkedin.com/in/frahaliaman">View LinkedIn profile</a></p>
-        <p><a href="https://frahaliaman.github.io/frah.a11y-accessible-cv/">View accessible résumé (HTML)</a></p>
-        <p>+1 613-700-6678</p>
-      </section>
+        <p>
+    <a href="https://www.linkedin.com/in/frahaliaman"
+       target="_blank" rel="noopener noreferrer"
+       aria-describedby="new-window-note">
+      View LinkedIn profile
+      <span class="visually-hidden"> (opens in a new tab)</span>
+    </a>
+  </p>
+  <p>
+    <a href="https://frahaliaman.github.io/frah.a11y-accessible-cv/"
+       target="_blank" rel="noopener noreferrer"
+       aria-describedby="new-window-note">
+      View accessible résumé (HTML)
+      <span class="visually-hidden"> (opens in a new tab)</span>
+    </a>
+  </p>
+  <p>+1 613-700-6678</p>
+</section>
+    <p id="new-window-note" class="visually-hidden">Opens in a new tab.</p>
     </header>
-
     <nav aria-label="Page sections">
       <ul>
         <li><a href="#summary">Skip to summary</a></li>
