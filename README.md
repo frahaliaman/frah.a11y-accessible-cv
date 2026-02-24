@@ -1,7 +1,7 @@
 # frah.a11y-accessible-cv — Accessible Résumé
 
 ## For recruiters (start here)
-- View résumé: https://frahaliaman.github.io/frah.a11y-accessible-cv/
+- View resumé: https://frahaliaman.github.io/frah.a11y-accessible-cv/
 - Contact: https://www.linkedin.com/in/frahaliaman/ · frah.ali.aman@gmail.com
 
 ## For builders (reuse this accessible template)
