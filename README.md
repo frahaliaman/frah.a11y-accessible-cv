@@ -20,5 +20,5 @@ This is a WCAG-friendly HTML résumé: semantic headings, linear reading order, 
 - Print styles for clean PDF export
 
 **Tech:** Plain HTML/CSS  
-**License:** Template MIT; resume content © Farah Ali Aman  
-_Last updated: 2025-09-02_
+**License:** Template MIT; resume content © Frah Ali Aman  
+_Last updated: 2026-08-03_
